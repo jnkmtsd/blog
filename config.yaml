@@ -1,0 +1,69 @@
+baseURL: https://engineering-for-engineer.net/
+title: E4E
+languageCode: ja-JP
+defaultContentLanguage: ja
+paginate: 10
+theme: PaperMod
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: E4E
+  description: "Engineering for Engineer"
+  keywords: [プラットフォームエンジニア, Platform Engineer, DevOps]
+  images: ["/images/top.png"]
+  DateFormat: "2006-01-02"
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowCodeCopyButtons: true
+  ShowFullTextinRSS: true
+  defaultTheme: light
+  showToc: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowRssButtonInSectionTermList: true
+  ShowAllPagesInArchive: true
+  ShowPageNums: true
+
+  homeInfoParams:
+    Title: "Engineering for Engineer"
+    Content: >
+      開発者の支援をミッションとするITエンジニア向けの情報をわかりやすくまとめます。
+
+
+      本サイトの運営者はプラットフォームエンジニア2年目で、その前は7年ほどソフトウェアエンジニアをしていました。
+
+
+      読者にとって何かしらのヒントとなる情報を届けられたら嬉しく思います。
+
+  socialIcons:
+    - name: X
+      url: "https://x.com/jnkmtsd"
+    - name: github
+      url: "https://github.com/jnkmtsd"
+
+  assets:
+    favicon: "/favicon.ico"
+    favicon16x16:  "/images/favicon-16x16.png"
+    favicon32x32:  "/images/favicon-32x32.png"
+    apple_touch_icon:  "/images/apple-touch-icon.png"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+menu:
+  main:
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 10
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 20
