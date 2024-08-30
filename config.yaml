@@ -6,7 +6,7 @@ paginate: 10
 theme: PaperMod
 
 params:
-  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  # env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: E4E
   description: "Engineering for Engineer"
   keywords: [プラットフォームエンジニア, Platform Engineer, DevOps]
