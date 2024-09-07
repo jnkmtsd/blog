@@ -9,7 +9,7 @@ params:
   # env: production # to enable google analytics, opengraph, twitter-cards and schema.
   title: E4E
   description: "Engineering for Engineer"
-  keywords: [プラットフォームエンジニア, Platform Engineer, DevOps]
+  keywords: [バックエンド, インフラ, エンジニア]
   images: ["/images/top.png"]
   DateFormat: "2006-01-02"
   ShowReadingTime: true
@@ -27,13 +27,13 @@ params:
   homeInfoParams:
     Title: "Engineering for Engineer"
     Content: >
-      開発者の支援をミッションとするITエンジニア向けの情報をわかりやすくまとめます。
+      バックエンド・インフラ領域の課題解決について扱うブログです。
 
 
-      本サイトの運営者はプラットフォームエンジニア2年目で、その前は7年ほどソフトウェアエンジニアをしていました。
+      運営者はプラットフォームエンジニア2年目で、その前は7年バックエンドエンジニアをしていました。
 
 
-      読者にとって何かしらのヒントとなる情報を届けられたら嬉しく思います。
+      ITエンジニアのスキルアップに役立てられるように、という思いを込めてE4E（Engineering for Engineer）というブログ名にしました。
 
   socialIcons:
     - name: X
