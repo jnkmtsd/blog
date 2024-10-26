@@ -1,0 +1,25 @@
+@startuml
+
+skinparam classAttributeIconSize 0
+
+interface ClientInterface
+
+class "GuzzleHttp\Client" {
+}
+
+class "Pp\RetryableClient" {
+    - ClientInterface $client
+    - const MAX_RETRY_COUNT = 3
+}
+
+class "Pp\Client" {
+    - ClientInterface $client
+}
+
+"GuzzleHttp\Client" --|> ClientInterface
+"Pp\RetryableClient" --|> ClientInterface
+
+"Pp\RetryableClient" *--> ClientInterface : $client
+"Pp\Client" *--> ClientInterface : $client
+
+@enduml
